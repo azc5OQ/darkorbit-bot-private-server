@@ -1,0 +1,160 @@
+.pane, .anchor-pane
+{
+-fx-background-color: #ffffff;
+}
+
+.text-area
+{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-text-box-border: transparent;
+    -fx-text-fill: #ffffff;
+}
+.text-area > .scroll-pane{
+    -fx-vbar-policy:always; /* Control the vertical ScrollBar (always,needed,never) */
+}
+
+.button
+{
+    -fx-background-color: #0020A3;
+    -fx-transition: 1s ease;
+}
+.button:hover
+{
+    -fx-background-color:  #2986FF;
+}
+
+.text-area .content{
+    -fx-background-color: #414141;
+}
+
+.scroll-pane {
+    -fx-background-color: red, white;
+    -fx-background-insets: 0, 2;
+    -fx-padding: 2.0;
+}
+
+.label {
+    -fx-text-fill: #5c6f8a;
+}
+
+#anchorPaneKeys {
+    -fx-border-color: #ffffff;
+    -fx-border-color: blue ;
+    -fx-border-left-width: 2;
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
+
+
+#anchorPaneKeys .text-field {
+    -fx-pref-width: 161;
+}
+
+#paneHeader .label {
+    -fx-text-fill: #6ae866;
+}
+
+#paneEncryptionKeys {
+    -fx-background-color: #bfb7b7;
+}
+
+
+#paneConnectedClients {
+    -fx-background-color: #183F3F;
+}
+
+.button-client {
+    -fx-background-color: #9D32C0;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 102;
+    -fx-pref-height: 25;
+    -fx-background-image: url(images/user.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px 20px;
+}
+
+.button-channel-name {
+    -fx-background-color: inherit;
+    -fx-pref-width: 102;
+    -fx-pref-height: 25;
+    -fx-text-fill: #ffffff;
+}
+
+.button-channel-name:hover {
+    -fx-background-color: blue;
+}
+
+.button-channel-name-passworded {
+    -fx-background-color: inherit;
+    -fx-pref-width: 102;
+    -fx-pref-height: 25;
+    -fx-text-fill: #ffffff;
+    -fx-background-image: url(images/lock.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 20px 20px;
+}
+
+
+
+#VBOXConnectedClients {
+     -fx-background-color: #183F3F;
+}
+#scrollPaneConnectedClients {
+     -fx-background-color: #183F3F;
+}
+
+#anchorPaneConnectedClients {
+     -fx-background-color: #183F3F;
+}
+
+#paneMenuBar {
+    -fx-background-color: white;
+}
+
+#paneChatContentContainer {
+     -fx-background-color: #D0E9CF;
+}
+
+#chatWindowBorderPaneBottomContainer {
+     -fx-background-color: #A43230;
+}
+
+#textfieldSendChatMessage {
+    -fx-background-color: inherit;
+    -fx-text-fill: white;
+    -fx-border-color: yellow;
+    -fx-border-left-width: 2;
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
+
+.buttonSendChatMessage {
+    -fx-background-color: #A46AB7;
+    -fx-border-color: yellow;
+    -fx-border-left-width: 2;
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
+
+.buttonSendChatMessage:hover {
+    -fx-background-color: inherit;
+    -fx-border-color: #A46AFF;
+    -fx-border-left-width: 2;
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round ;
+}
+
+#anchorPaneChatMessages {
+    -fx-background-color :#BFB7B7;
+}
+
+.chat-message-sender {
+    -fx-background-color: inherit;
+    -fx-text-fill: #0070B7;
+    -fx-font-size: 12px;
+}
+
+.chat-message-text, .chat-message-text:hover {
+    -fx-background-color: inherit;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+}
